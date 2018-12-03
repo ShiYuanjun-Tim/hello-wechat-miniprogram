@@ -1,0 +1,5 @@
+<!--comps/comp1/one.wxml-->
+<button size="mini" bindtap='orginTap'>no bubble 'hello'</button>
+<button size="mini" bindtap='bubbleOrginTap'>bubble 'hello'</button>
+<button size="mini" bindtap='composedTap'>composed bubble 'hello'</button>
+ 

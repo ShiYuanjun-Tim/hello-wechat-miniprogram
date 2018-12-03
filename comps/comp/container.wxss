@@ -1,0 +1,11 @@
+/* comps/comp/container.wxss */
+
+.container{
+  background-color: red;
+  padding: 10px 10px;
+}
+
+.slot{
+  background-color: green;
+  padding: 10px 10px;
+}

@@ -1,0 +1,13 @@
+<!--comps/comp/container.wxml-->
+<view class="container" data-id="in-container" bindhello="helloEvt">
+
+  <view>------green is contianer part------</view>
+  <view wx:for="{{msg}}" wx:key="*this" style="background-color:orange;">{{item}}</view>
+
+  <view class="slot">
+    <view> slot here</view>  
+    <slot> </slot>
+  </view>
+
+
+</view>

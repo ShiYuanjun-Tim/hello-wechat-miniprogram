@@ -1,0 +1,6 @@
+<view>
+  <view wx:for="{{msg}}" wx:key="*this" style="background-color:orange;">{{item}}</view>
+  <container data-id="container" bindhello="helloEvt">
+    <one data-id="one" bindhello="helloEvt"></one>
+  </container>
+</view>

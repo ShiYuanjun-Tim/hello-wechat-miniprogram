@@ -1,0 +1,11 @@
+<!--comps/event/event.wxml-->
+<view>
+  <view>data source test</view>
+  <view>url properties: {{strParam}}</view>
+  <view>data: {{status}}</view>
+  <view>--------------------------</view>
+  <compDemo></compDemo>
+
+</view>
+
+
